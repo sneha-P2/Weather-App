@@ -1,0 +1,16 @@
+.searchbox{
+   text-align: center; 
+}
+
+.searchbox h2{
+    color:rgb(255, 255, 255);
+    
+}
+
+.MuiInputLabel-root {
+  color: white !important;
+}
+
+.MuiInputBase-input::placeholder {
+  color: white !important;
+}

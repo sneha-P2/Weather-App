@@ -1,0 +1,14 @@
+.infoBox {
+  display: flex;
+  justify-content: center; /* centers the Card horizontally */
+  align-items: center;     /* centers vertically (optional) */
+  flex-direction: column; /* keeps heading above card */
+  text-align: center;      /* centers the text in the heading */
+   color:rgb(255, 255, 255);
+}
+
+
+.cardWidth {
+  border: 2px solid rgba(90, 88, 88, 0.4);
+}
+
