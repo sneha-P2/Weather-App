@@ -57,7 +57,7 @@ export default function SearchBox({ updateInfo }) {
         <TextField required id="city" label="City" placeholder="City Name" value={city} onChange={handleChange} variant="standard" />
         <br></br><br></br>
         <Button variant="contained" type='submit'>Search</Button>
-        <span>{error && <p style={{color:"darkred", fontSize:"20px", fontWeight:"bold"}}>No such city exits in API!! </p>}</span>
+        <span>{error && <p style={{color:"darkred", fontSize:"20px", fontWeight:"bold"}} className='srcp'>No such city exits in API!! </p>}</span>
       </form>
     </div>
   )

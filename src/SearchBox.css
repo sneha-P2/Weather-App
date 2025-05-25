@@ -1,5 +1,7 @@
 .searchbox{
    text-align: center; 
+    margin:0%;
+  padding: 0%;
 }
 
 .searchbox h2{
@@ -13,4 +15,9 @@
 
 .MuiInputBase-input::placeholder {
   color: white !important;
+}
+
+.srcp{
+  margin-top: 5px;
+  padding: 0%;
 }
