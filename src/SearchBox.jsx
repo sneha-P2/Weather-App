@@ -33,7 +33,8 @@ export default function SearchBox({ updateInfo }) {
     };
 
   let handleChange = (e) => {
-    setCity(e.target.value)
+    setCity(e.target.value);
+    setError(false)
   }
 
   let handleSubmit = async (evt) => {

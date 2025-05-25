@@ -4,15 +4,7 @@ import './WeatherApp.css'
 import { useState } from "react"
 export default function WeatherApp() {
 
-  const[weatherInfo, setWeatherInfo] = useState({
-    city : "Delhi",
-        Feels_like: 29.98,
-        Humidity: 31,
-        Pressure: 998,
-        Temperature: 31.14,
-        Temperature_max: 31.14,
-        Temperature_min: 31.14,
-  })
+  const[weatherInfo, setWeatherInfo] = useState({})
 
   let updateInfo = (newInfo) =>{
   setWeatherInfo(newInfo); 
